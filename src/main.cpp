@@ -2,10 +2,10 @@
 #include <Adafruit_NeoPixel.h>
 
 // Define the pin connected to the NeoPixel data line
-#define LED_PIN 5
+#define LED_PIN 22
 
 // Define the number of NeoPixels in the strip
-#define LED_COUNT 30
+#define LED_COUNT 12
 
 // Create NeoPixel strip object
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);

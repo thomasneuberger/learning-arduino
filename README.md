@@ -11,7 +11,7 @@ This project contains starter code for controlling a NeoPixel LED strip with an 
 
 ## Wiring
 
-- **NeoPixel Data Pin** → ESP32 GPIO 5
+- **NeoPixel Data Pin** → ESP32 GPIO 22
 - **NeoPixel VCC** → 5V power supply
 - **NeoPixel GND** → ESP32 GND and power supply GND
 
@@ -20,8 +20,8 @@ This project contains starter code for controlling a NeoPixel LED strip with an 
 ## Configuration
 
 The default configuration in `src/main.cpp`:
-- **LED_PIN**: GPIO 5 (can be changed to any GPIO pin)
-- **LED_COUNT**: 30 LEDs (adjust to match your strip length)
+- **LED_PIN**: GPIO 22 (can be changed to any GPIO pin)
+- **LED_COUNT**: 12 LEDs (adjust to match your strip length)
 
 ## Software Requirements
 
